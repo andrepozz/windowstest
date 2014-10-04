@@ -1,0 +1,718 @@
+
+#credits h2{
+	white-space: normal !important;
+}
+
+#credits p{
+	white-space: normal !important;
+}
+
+@media only screen and (max-width: 300px) {
+
+/*GENERALE*/
+
+body.ui-mobile-viewport {
+background: url(../img/woman-small.png), url(../img/quadrati-small.png);
+background-repeat:no-repeat, no-repeat;
+background-position: bottom right, top right;
+}
+
+.ui-page {
+background: transparent;
+}
+
+.ui-header{
+background: #000000 url(../img/header-small.png) no-repeat center center !important;
+height: 2.5em !important;
+border: 0;
+}
+
+.ui-listview .ui-btn{
+background-color:rgba(246,246,246,0.9);
+color: #333333;
+}
+
+.ui-listview .ui-btn:hover{
+background-color:rgba(237,237,237,0.9);
+color: #333333;
+text-shadow: none;
+}
+
+.ui-listview .ui-btn:active{
+background-color:rgba(232,232,232,0.9);
+color: #333333;
+text-shadow: none;
+}
+
+.ui-listview .ui-icon-carat-r{
+opacity: 1;
+}
+
+/*INDEX*/
+
+#manicoBorsa{
+height: 6.5em;
+margin: auto;
+margin-left: 5px;
+}
+
+#manicoBorsa img{
+height: 6em !important;
+}
+
+#rigaBorsa_1, #rigaBorsa_2{
+height: 6.5em;
+margin: auto;
+}
+
+#rigaBorsa_1 img, #rigaBorsa_2 img{
+height: 6em !important;
+}
+
+#rigaBorsa_1 .blocco_sx, #rigaBorsa_2 .blocco_sx{
+float: left;
+margin: 0 10px 0 0;
+}
+
+ul.downloadList{
+list-style-type: none;
+padding: 0;
+}
+
+ul.downloadList li{
+background: #ffffff;
+padding: 2px 0 2px 5px;
+border: 1px solid #4B4B4B;
+margin-bottom: 3px;
+}
+
+ul.downloadList li img{
+vertical-align: middle;
+width: 1em;
+}
+
+.headersetupApplicazione{
+background: #FD613D;
+color: #ffffff;
+text-align: center;
+text-transform:uppercase;
+}
+
+.headerUpdateDisponibili{
+background: #FD613D;
+color: #ffffff;
+text-align: center;
+text-transform:uppercase;
+}
+
+h3.titoloCollegaFacebook{
+background: #3c5193;
+padding: 3px;
+color: white;
+text-shadow: none;
+text-transform:uppercase;
+}
+
+p.descrizioneCollegaFacebook{
+background-color:rgba(255,255,255,0.9);
+}
+
+h3.titoloCollegaFoursquare{
+background: #219ecc;
+padding: 3px;
+color: white;
+text-shadow: none;
+text-transform:uppercase;
+}
+
+p.descrizioneCollegaFoursquare{
+background-color:rgba(255,255,255,0.9);
+}
+
+h3.titoloCollegaTwitter{
+background: #2da8e0;
+padding: 3px;
+color: white;
+text-shadow: none;
+text-transform:uppercase;
+}
+
+p.descrizioneCollegaTwitter{
+background-color:rgba(255,255,255,0.9);
+}
+
+
+
+/*OPZIONI*/
+
+p.countUpdates{
+background-color: #FFFFFF;
+padding: 3px;
+}
+
+/*ESERCIZI VICINI*/
+
+button.circleDistance{
+background-color: #FFFFFF;
+padding: 2px;
+text-decoration: none;
+border:1px solid #dcdcdc;
+}
+
+button.circleDistance img{
+width: 2em;
+}
+
+/*RICERCA PER NOME*/
+
+p.descrizioneRicercaNome{
+background-color:rgba(255,255,255,0.9);
+white-space: normal !important;
+}
+
+/*RICERCA PER BRAND*/
+
+p.descrizioneRicercaBrand{
+background-color:rgba(255,255,255,0.9);
+white-space: normal !important;
+}
+
+}
+
+@media only screen and (min-width:301px) and (max-width:400px){
+
+/*GENERALE*/
+
+body.ui-mobile-viewport {
+background: url(../img/woman-medium.png), url(../img/quadrati-medium.png);
+background-repeat:no-repeat, no-repeat;
+background-position: bottom right, top right;
+}
+
+.ui-page {
+background: transparent;
+}
+
+.ui-header{
+background: #000000 url(../img/header-medium.png) no-repeat center center !important;
+height: 3em !important;
+border: 0;
+}
+
+.ui-header .ui-btn-left, .ui-header .ui-btn-right{
+vertical-align: middle;
+margin: auto !important;
+position: absolute;
+top: .8em;
+}
+
+.ui-listview .ui-btn{
+background-color:rgba(246,246,246,0.9);
+color: #333333;
+}
+
+.ui-listview .ui-btn:hover{
+background-color:rgba(237,237,237,0.9);
+color: #333333;
+text-shadow: none;
+}
+
+.ui-listview .ui-btn:active{
+background-color:rgba(232,232,232,0.9);
+color: #333333;
+text-shadow: none;
+}
+
+.ui-listview .ui-icon-carat-r{
+opacity: 1;
+}
+
+/*INDEX*/
+
+#manicoBorsa{
+height: 6.5em;
+margin: auto;
+margin-left: 5px;
+}
+
+#manicoBorsa img{
+height: 6em !important;
+}
+
+#rigaBorsa_1, #rigaBorsa_2{
+height: 6.5em;
+margin: auto;
+}
+
+#rigaBorsa_1 img, #rigaBorsa_2 img{
+height: 6em !important;
+}
+
+#rigaBorsa_1 .blocco_sx, #rigaBorsa_2 .blocco_sx{
+float: left;
+margin: 0 10px 0 0;
+}
+
+ul.downloadList{
+list-style-type: none;
+padding: 0;
+}
+
+ul.downloadList li{
+background: #ffffff;
+padding: 2px 0 2px 5px;
+border: 1px solid #4B4B4B;
+margin-bottom: 3px;
+}
+
+ul.downloadList li img.iconaTipologia{
+vertical-align: middle;
+width: 2em;
+}
+
+.headersetupApplicazione{
+background: #FD613D;
+color: #ffffff;
+text-align: center;
+text-transform:uppercase;
+}
+
+.headerUpdateDisponibili{
+background: #FD613D;
+color: #ffffff;
+text-align: center;
+text-transform:uppercase;
+}
+
+h3.titoloCollegaFacebook{
+background: #3c5193;
+padding: 4px;
+color: white;
+text-shadow: none;
+text-transform:uppercase;
+}
+
+p.descrizioneCollegaFacebook{
+background-color:rgba(255,255,255,0.9);
+}
+
+h3.titoloCollegaFoursquare{
+background: #219ecc;
+padding: 4px;
+color: white;
+text-shadow: none;
+text-transform:uppercase;
+}
+
+p.descrizioneCollegaFoursquare{
+background-color:rgba(255,255,255,0.9);
+}
+
+h3.titoloCollegaTwitter{
+background: #2da8e0;
+padding: 4px;
+color: white;
+text-shadow: none;
+text-transform:uppercase;
+}
+
+p.descrizioneCollegaTwitter{
+background-color:rgba(255,255,255,0.9);
+}
+
+/*OPZIONI*/
+
+p.countUpdates{
+background-color: #FFFFFF;
+padding: 3px;
+}
+
+/*ESERCIZI VICINI*/
+
+button.circleDistance{
+background-color: #FFFFFF;
+padding: 2px;
+text-decoration: none;
+border:1px solid #dcdcdc;
+}
+
+button.circleDistance img{
+width: 2em;
+}
+
+/*RICERCA PER NOME*/
+
+p.descrizioneRicercaNome{
+background-color:rgba(255,255,255,0.9);
+white-space: normal !important;
+}
+
+/*RICERCA PER BRAND*/
+
+p.descrizioneRicercaBrand{
+background-color:rgba(255,255,255,0.9);
+white-space: normal !important;
+}
+
+
+}
+ 
+ 
+ 
+@media only screen and (min-width:401px) and (max-width:789px){
+
+/*GENERALE*/
+
+body.ui-mobile-viewport {
+background: url(../img/woman-medium.png), url(../img/quadrati-medium.png);
+background-repeat:no-repeat, no-repeat;
+background-position: bottom right, top right;
+}
+
+.ui-page {
+background: transparent;
+}
+
+.ui-header{
+background: #000000 url(../img/header-medium.png) no-repeat center center !important;
+height: 3em !important;
+border: 0;
+}
+
+.ui-header .ui-btn-left, .ui-header .ui-btn-right{
+vertical-align: middle;
+margin: auto !important;
+position: absolute;
+top: .8em;
+}
+
+.ui-listview .ui-btn{
+background-color:rgba(246,246,246,0.9);
+color: #333333;
+}
+
+.ui-listview .ui-btn:hover{
+background-color:rgba(237,237,237,0.9);
+color: #333333;
+text-shadow: none;
+}
+
+.ui-listview .ui-btn:active{
+background-color:rgba(232,232,232,0.9);
+color: #333333;
+text-shadow: none;
+}
+
+.ui-listview .ui-icon-carat-r{
+opacity: 1;
+}
+
+/*INDEX*/
+
+#manicoBorsa{
+height: 10.5em;
+margin: auto;
+margin-left: 10px;
+margin-top: 60px;
+}
+
+#manicoBorsa img{
+height: 10em !important;
+}
+
+#rigaBorsa_1, #rigaBorsa_2{
+height: 10.5em;
+margin: auto;
+}
+
+#rigaBorsa_1 img, #rigaBorsa_2 img{
+height: 10em !important;
+}
+
+#rigaBorsa_1 .blocco_sx, #rigaBorsa_2 .blocco_sx{
+float: left;
+margin: 0 10px 0 0;
+}
+
+ul.downloadList{
+list-style-type: none;
+padding: 0;
+}
+
+ul.downloadList li{
+background: #ffffff;
+padding: 5px 0 5px 5px;
+border: 1px solid #4B4B4B;
+margin-bottom: 3px;
+}
+
+ul.downloadList li img{
+vertical-align: middle;
+}
+
+.headersetupApplicazione{
+background: #FD613D;
+color: #ffffff;
+text-align: center;
+text-transform:uppercase;
+}
+
+.headerUpdateDisponibili{
+background: #FD613D;
+color: #ffffff;
+text-align: center;
+text-transform:uppercase;
+}
+
+h3.titoloCollegaFacebook{
+background: #3c5193;
+padding: 5px;
+color: white;
+text-shadow: none;
+text-transform:uppercase;
+}
+
+p.descrizioneCollegaFacebook{
+background-color:rgba(255,255,255,0.9);
+}
+
+h3.titoloCollegaFoursquare{
+background: #219ecc;
+padding: 5px;
+color: white;
+text-shadow: none;
+text-transform:uppercase;
+}
+
+p.descrizioneCollegaFoursquare{
+background-color:rgba(255,255,255,0.9);
+}
+
+h3.titoloCollegaTwitter{
+background: #2da8e0;
+padding: 5px;
+color: white;
+text-shadow: none;
+text-transform:uppercase;
+}
+
+p.descrizioneCollegaTwitter{
+background-color:rgba(255,255,255,0.9);
+}
+
+/*OPZIONI*/
+
+p.countUpdates{
+background-color: #FFFFFF;
+padding: 5px;
+}
+
+/*ESERCIZI VICINI*/
+
+button.circleDistance{
+background-color: #FFFFFF;
+padding: 2px;
+text-decoration: none;
+border:1px solid #dcdcdc;
+}
+
+button.circleDistance img{
+width: 3em;
+}
+
+/*RICERCA PER NOME*/
+
+p.descrizioneRicercaNome{
+background-color:rgba(255,255,255,0.9);
+white-space: normal !important;
+}
+
+/*RICERCA PER BRAND*/
+
+p.descrizioneRicercaBrand{
+background-color:rgba(255,255,255,0.9);
+white-space: normal !important;
+}
+
+ 
+}
+ 
+@media only screen and (min-width: 790px) {
+ 
+/*GENERALE*/
+ 
+body.ui-mobile-viewport {
+background: url(../img/woman-big.png), url(../img/quadrati-big.png);
+background-repeat:no-repeat, no-repeat;
+background-position: bottom right, top right;
+}
+ 
+.ui-page {
+background: transparent;
+}
+
+.ui-header{
+background: #000000 url(../img/header-big.png) no-repeat center center !important;
+height: 5em !important;
+border: 0;
+}
+
+.ui-header .ui-btn-left, .ui-header .ui-btn-right{
+vertical-align: middle;
+margin: auto !important;
+position: absolute;
+top: 1em;
+}
+
+.ui-listview .ui-btn{
+background-color:rgba(246,246,246,0.9);
+color: #333333;
+}
+
+.ui-listview .ui-btn:hover{
+background-color:rgba(237,237,237,0.9);
+color: #333333;
+text-shadow: none;
+}
+
+.ui-listview .ui-btn:active{
+background-color:rgba(232,232,232,0.9);
+color: #333333;
+text-shadow: none;
+}
+
+.ui-listview .ui-icon-carat-r{
+opacity: 1;
+}
+
+/*INDEX*/
+
+#manicoBorsa{
+height: 11.5em;
+margin: auto;
+margin-left: 5px;
+margin-top: 40px;
+}
+
+#manicoBorsa img{
+height: 11em !important;
+}
+
+#rigaBorsa_1, #rigaBorsa_2{
+height: 11.5em;
+margin: auto;
+}
+
+#rigaBorsa_1 img, #rigaBorsa_2 img{
+height: 11em !important;
+}
+
+#rigaBorsa_1 .blocco_sx, #rigaBorsa_2 .blocco_sx{
+float: left;
+margin: 0 10px 0 0;
+}
+
+ul.downloadList{
+list-style-type: none;
+padding: 0;
+}
+
+ul.downloadList li{
+background: #ffffff;
+padding: 5px 0 5px 5px;
+border: 1px solid #4B4B4B;
+margin-bottom: 3px;
+}
+
+ul.downloadList li img{
+vertical-align: middle;
+}
+
+.headersetupApplicazione{
+background: #FD613D;
+color: #ffffff;
+text-align: center;
+text-transform:uppercase;
+}
+
+.headerUpdateDisponibili{
+background: #FD613D;
+color: #ffffff;
+text-align: center;
+text-transform:uppercase;
+}
+
+h3.titoloCollegaFacebook{
+background: #3c5193;
+padding: 5px;
+color: white;
+text-shadow: none;
+text-transform:uppercase;
+}
+
+p.descrizioneCollegaFacebook{
+background-color:rgba(255,255,255,0.9);
+}
+
+h3.titoloCollegaFoursquare{
+background: #219ecc;
+padding: 5px;
+color: white;
+text-shadow: none;
+text-transform:uppercase;
+}
+
+p.descrizioneCollegaFoursquare{
+background-color:rgba(255,255,255,0.9);
+}
+
+h3.titoloCollegaTwitter{
+background: #2da8e0;
+padding: 5px;
+color: white;
+text-shadow: none;
+text-transform:uppercase;
+}
+
+p.descrizioneCollegaTwitter{
+background-color:rgba(255,255,255,0.9);
+}
+
+/*OPZIONI*/
+
+p.countUpdates{
+background-color: #FFFFFF;
+padding: 5px;
+}
+
+
+.headerOffline{
+background: #FF3300;
+color: #ffffff;
+text-align: center;
+}
+
+/*ESERCIZI VICINI*/
+
+button.circleDistance{
+background-color: #FFFFFF;
+padding: 2px;
+text-decoration: none;
+border:1px solid #dcdcdc;
+}
+
+/*RICERCA PER NOME*/
+
+p.descrizioneRicercaNome{
+background-color:rgba(255,255,255,0.9);
+white-space: normal !important;
+}
+
+/*RICERCA PER BRAND*/
+
+p.descrizioneRicercaBrand{
+background-color:rgba(255,255,255,0.9);
+white-space: normal !important;
+}
+
+}

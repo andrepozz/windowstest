@@ -1,0 +1,182 @@
+a{
+text-decoration:none;
+}
+
+
+
+
+/* MAPPA */
+
+#map {
+    border: 0 none;
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+button.groupMarker{
+background-color: #FFFFFF;
+padding: 4px;
+text-decoration: none;
+border:1px solid #dcdcdc;
+}
+
+button.userMarker{
+background-color: #FFFFFF;
+padding: 4px;
+text-decoration: none;
+border:1px solid #dcdcdc;
+}
+
+
+/* ELENCO INDIRIZZO + NAVIGAZIONE + DISTANZA*/
+
+ul.funzionalitaMappa{
+    width: 100%;
+    margin:0;padding:0; /* CSS Reset */
+    margin: auto; /* center it */
+	min-height: 35px;
+}
+li.singolaFunzionalitaMappa{
+    width: 33.3333%;
+    float:left; /* squish them together */
+    list-style-type: none; /* remove the dots */
+    display:inline-block; /* IMPORTANT */
+	text-align: center;
+	background: #ffffff;
+	min-height: 35px;
+	line-height: 35px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+li.singolaFunzionalitaMappa.distanzaEsercizio{
+	line-height: 35px;
+}
+
+.immagineDistanza{
+vertical-align: middle;
+}
+
+p.esercizioVicino{
+	font-weight: normal;
+	font-size: 0.8em;
+	line-height: 0.8em;
+	margin: 2px 0 0 0;
+	padding: 2px;
+}
+
+@media screen and (max-width: 800px) {
+    li.singolaFunzionalitaMappa{
+        width: 100%;
+    }
+}
+
+/* PARCHEGGIO VICINO*/
+
+ul.parcheggioVicino{
+    width: 100%;
+    margin:0;padding:0; /* CSS Reset */
+    margin: auto; /* center it */
+	min-height: 35px;
+}
+li.immagineParcheggio{
+    width: 100%;
+    float:left; /* squish them together */
+    list-style-type: none; /* remove the dots */
+    display:inline-block; /* IMPORTANT */
+	text-align: center;
+	background: #ffffff;
+	min-height: 35px;
+	line-height: 35px;
+	padding: 5px 0 0 0;
+}
+
+img.imgParcheggio{
+	max-width: 100%;
+	height: auto;
+	float: left;
+	padding: 0 0 0 1em;
+	
+}
+
+@media screen and (max-width: 800px) {
+    li.immagineParcheggio, li.nomeParcheggio{
+        width: 100%;
+    }
+}
+
+
+
+/* NOME */
+
+#box-nomeEsercizio{
+margin: 10px 0 10px 0;
+background: #fd613d;
+color: #ffffff;
+padding: 5px 10px 5px 10px;
+min-height: 25px;
+}
+
+/* BRAND */
+
+p.brandEsercizio{
+white-space: normal !important;
+}
+
+/* DESCRIZIONE */
+
+p.descrizioneEsercizio{
+white-space: normal !important;
+}
+
+a.morelink {
+    text-decoration:none;
+    outline: none;
+}
+.morecontent span {
+    display: none;
+}
+.comment {
+    width: 400px;
+    background-color: #f0f0f0;
+    margin: 10px;
+}
+
+/* ORARI */
+
+ul#orariEsercizio .ui-li-divider{
+    color: #ffffff;
+	border: 0;
+	text-shadow: none !important;
+	background: #fd613d;
+}
+
+
+/* CONTATTI */
+
+ul#contattiEsercizio .ui-li-divider{
+    color: #ffffff;
+	border: 0;
+	text-shadow: none !important;
+	background: #fd613d;
+}
+
+/* BARCHART */
+
+ul#statisticheEsercizio .ui-li-divider{
+    color: #ffffff;
+	border: 0;
+	text-shadow: none !important;
+	background: #fd613d;
+}
+
+#barChart{
+    border: 0 none;
+    display: block;
+    height: auto;
+    max-width: 100%;
+	background: #FFFFFF;
+}
+
+.highcharts-container { overflow: visible !important; }

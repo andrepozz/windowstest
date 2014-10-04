@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0" />
+	<link rel="stylesheet" href="css/themes/shopincomo.min.css" />
+	<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.2.min.css" />
+	<link rel="stylesheet" href="css/template.css" />
+	<link rel="stylesheet" href="css/leaflet.css" />
+	<link rel="stylesheet" href="css/leaflet.usermarker.css" />
+	<link rel="stylesheet" href="css/vetrina.css" />
+	
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/jquery.mobile-1.4.2.min.js"></script>
+		
+	<script src="js/highcharts.js"></script>
+	<script src="js/leaflet.js"></script>
+	<script src="js/leaflet.usermarker.js"></script>
+	<script type="text/javascript" src="cordova.js"></script>
+</head>
+<body>
+
+<!-- PAGE #index -->
+<div data-role="page" id="index">
+
+	<!-- /HEADER -->
+	<div data-role="header" data-position="fixed" data-tap-toggle="false">
+	<h1></h1>
+	</div>
+	<!-- /HEADER -->
+	
+	<!-- CONTENT -->
+	<div role="main" class="ui-content" >
+	
+	<script>   
+	$( "#index" ).on( "pageshow", function() {	
+	
+    document.addEventListener("deviceready", onDeviceReady, false);
+    
+    function onDeviceReady() {
+        alert("device is ready");
+		alert(device.cordova);
+    }
+		
+	});
+		
+	</script>
+
+	<div id="manicoBorsa">
+	<img src="img/manico.png">
+	</div>
+	<div id="rigaBorsa_1">
+	</div>
+	<div id="rigaBorsa_2">
+	</div>
+	
+	<div data-role="popup" id="setupApplicazione" data-dismissible="false" data-history="false">
+	<p class="headersetupApplicazione">Warning</p>
+    <p class="descrizionesetupApplicazione">Setup Applicazione Necessario / Application Setup</p>
+	<a href="#lingue" class="ui-btn buttonsetupApplicazione">SETUP</a>
+	</div>
+	
+	
+	<div data-role="popup" id="updateDisponibili" data-dismissible="false" data-history="false">
+	<p class="headerUpdateDisponibili"></p>
+    <p class="descrizioneUpdateDisponibili"></p>
+	<a href="opzioni.html" rel="external" class="ui-btn buttonUpdateDisponibili">Update</a>
+	<a href="#" class="ui-btn closePopupUpdateDisponibili"></a>
+	</div>
+	
+	</div>
+	<!-- /CONTENT -->
+
+	<!-- FOOTER -->
+	<!-- /FOOTER -->
+	
+</div><!-- /PAGE #index -->
+
+</body>
+</html>
