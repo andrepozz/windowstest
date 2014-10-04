@@ -39,13 +39,25 @@
     document.addEventListener("deviceready", onDeviceReady, false);
     
     function onDeviceReady() {
-        alert("device is ready");
-		alert(device.cordova);
+		
+		
+		$(document).on("click", 'a.link', function(){
+		
+		var ref = window.open('http://apache.org', '_blank', 'location=yes');
+		
+		ref.addEventListener('loadstart', function(event) {
+        alert("ciao");
+		});
+		
+		});
+
     }
 		
 	});
 		
 	</script>
+	
+	<a href="#" class="link">browser</a>
 
 	<div id="manicoBorsa">
 	<img src="img/manico.png">
